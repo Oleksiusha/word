@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Quote Generator</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    #quote-container {
+      text-align: center;
+    }
+    #quote {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    #author {
+      font-size: 18px;
+    }
+    #generate-button {
+      font-size: 18px;
+      padding: 10px 20px;
+      margin-top: 20px;
+      cursor: pointer;
+      border: none;
+      background-color: #1e90ff;
+      color: white;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="quote-container">
+    <div id="quote">Click the button to generate a random quote.</div>
+    <div id="author"></div>
+    <button id="generate-button">Generate Quote</button>
+  </div>
+
+  <script>
+    const quotes = [
+      {
+        quote: "Be yourself; everyone else is already taken.",
+        author: "Oscar Wilde"
+      },
+      {
+        quote: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+        author: "Albert Einstein"
+      },
+      {
+       
